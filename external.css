@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+.header{
+    background-color:wheat;
+    padding: 10px 30px 30px 30px;
+    text-align: center;
+}
+
+
+.navbar{
+    background-color: burlywood;
+    align-content: left;
+    color: black;
+    font-size: larger;
+}
+
+
+
+.sticky{
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+
+.sticky + .content{
+    padding-top: 102px;
+}
+
+.footer {
+    text-align: center;
+    height: fit-content;
+    padding: 10px;
+    background: #ddd;
+  }
+
